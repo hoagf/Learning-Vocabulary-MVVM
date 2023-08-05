@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.splash.SplashActivity">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.hoagf.learning.ui.splash.SplashViewModel" />
+    </data>
+    <RelativeLayout
+        android:id="@+id/activity_splash"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txt_lessons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+        </ScrollView>
+    </RelativeLayout>
+</layout>
